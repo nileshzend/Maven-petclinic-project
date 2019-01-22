@@ -1,4 +1,3 @@
-i
 SSH logo
 SECURE SHELL
  
@@ -13,6 +12,9 @@ HomeSSHPuTTYWindowsPuttygen
 PUTTYGEN - KEY GENERATOR FOR PUTTY ON WINDOWS
 This page is about PuTTYgen on Windows. For the Linux version, see here.
 
+
+
+PuTTYgen is an key generator tool for creating SSH keys for PuTTY. It is analogous to the ssh-keygen tool used in some other SSH implementations.
 PuTTYgen is an key generator tool for creating SSH keys for PuTTY. It is analogous to the ssh-keygen tool used in some other SSH implementations.
 
 The basic function is to create public and private key pairs. PuTTY stores keys in its own format in .ppk files. However, the tool can also convert keys to and from other formats.
