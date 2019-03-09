@@ -62,7 +62,7 @@ pipeline {
         }
 	}
 	  stage('Deploy') {
-          agent { label "TomcatAppSrv" }
+          agent { label "Tomcat" }
 			steps {
 			    script {
 				  input('Deploy Package to Production?')
