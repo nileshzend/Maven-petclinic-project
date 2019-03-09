@@ -33,7 +33,7 @@ pipeline {
  agent none
     stages {
       stage('SCM_Chekout') {
-          agent { label "node1" }
+          agent { label "master" }
 			steps {
 			    script {
 					notify('build-started')
