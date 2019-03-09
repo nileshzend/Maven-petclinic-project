@@ -15,7 +15,7 @@ def uploadSpec = """{
   "files": [
 	{
 	  "pattern": "target/petclinic.war",
-	  "target": "petclinic/"
+	  "target": "petclinicRepo/"
 	}
 		   ]
   }"""
@@ -23,7 +23,7 @@ def uploadSpec = """{
 /*def downloadSpec = """{
  "files": [
   {
-      "pattern": "petclinic/*.war",
+      "pattern": "petclinicRepo/*.war",
       "target": "./"
     }
  ]
